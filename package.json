@@ -1,0 +1,15 @@
+{
+  "name": "mivo-dutch-tutor",
+  "version": "1.0.0-beta.1",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free Dutch speaking tutor MVP with optional OpenAI Realtime voice",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
